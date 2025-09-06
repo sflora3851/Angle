@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2 Column Layout</title>
+  <style>
+    .two-columns {
+      display: flex;
+      gap: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .column {
+      flex: 1; /* each column takes equal width */
+      background: #f4f4f4;
+      padding: 20px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="two-columns">
+    <div class="column">Column 1 content
+      <p> Something something</p>
+    </div>
+    <div class="column">Column 2 content
+      <p> Something something</p>
+    </div>
+  </div>
+</body>
+</html>
